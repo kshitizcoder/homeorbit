@@ -1,0 +1,343 @@
+[{
+  "_id": {
+    "$oid": "66c4a828560673e741d4405b"
+  },
+  "name": "Kshitiz bhattarai",
+  "email": "horizon@gmail.com",
+  "role": "buyer",
+  "password": "$2a$12$OxnmJ7awRKw5BUfit3HMFONXitFoyD2k/o6XxLnVpofd40q3mF.7a",
+  "__v": 0,
+  "photo": "1734427466333.jpg"
+},
+{
+  "_id": {
+    "$oid": "66c5bda810ea76a4e54d513d"
+  },
+  "name": "gita",
+  "email": "gita@gmail.com",
+  "role": "admin",
+  "password": "$2a$12$ww1YntqxFjmTzmToIR4n0urFj3R0MwnceAUeL./zcLiGhHc0UXcGy",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66cd99755f4d30fe0a79e3f1"
+  },
+  "name": "bigyan",
+  "email": "bigyan@gamil.com",
+  "role": "seller",
+  "password": "$2a$12$f05X39PmtfcyR4PNm7cUf.VY6nXVUpKA.0L4SpVTcMRWh3YNJh6F.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66cf4b8f4b54be0b05e39f71"
+  },
+  "name": "subani bhattarai",
+  "email": "subani@gmail.com",
+  "role": "seller",
+  "password": "$2a$12$NDIe5/RTykr1ai9/tPDNROZHpu/jxe2fffH1Mx84y0lzAHyKvv.oG",
+  "__v": 0,
+  "photo": "1734427365541.jpg"
+},
+{
+  "_id": {
+    "$oid": "66cf4bf54b54be0b05e39f80"
+  },
+  "name": "jivan",
+  "email": "jivan@gmail.com",
+  "role": "seller",
+  "password": "$2a$12$K/Wna51UKW9o8QegQY1uCum4fvO4JTl268hmnpAbOG3kKAMmYeRPK",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d1d87f948931a9881543b7"
+  },
+  "name": "Durga khanal",
+  "email": "durga@gamil.com",
+  "role": "buyer",
+  "password": "$2a$12$Q0KU7UHL0E8.AcDtdo2wuOcZRRVuIKr9zZ6Q.q4K43ovlPnisekNO",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d2a5ff98ec108a02d401f5"
+  },
+  "name": "bibek bhattarai",
+  "email": "bibek@gmail.com",
+  "role": "seller",
+  "password": "$2a$12$F.vDP7vqqkoZrcaELb4luOblH8CSDAGPldTOToldlXSoTUXoBju22",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d53079fcbe04a06ce122cd"
+  },
+  "name": "ashish",
+  "email": "ashish@gmail.com",
+  "role": "seller",
+  "password": "$2a$12$sikuuXyGxQ0UGBL7eT2JUOUydLjnX4S7SecOZp4iwbztExafwEGV2",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d5315077fc8f7cf954ad45"
+  },
+  "name": "jhon cena",
+  "email": "jhon@gmail.com",
+  "role": "buyer",
+  "password": "$2a$12$DTT8lo8pF7QXZZNyR8SgJuE17uBEjMNEaUKF9BI7ahdKvd8sNcd3.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d5319177fc8f7cf954ad49"
+  },
+  "name": "smith steve",
+  "email": "smith@gmail.com",
+  "role": "seller",
+  "password": "$2a$12$Ky8mcSIF7b.EpzEViM1.oe1FNfxnsEBUBErQytuGMXEf0cr5rf5nK",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fa77c4ab47099e8c957df7"
+  },
+  "name": "bigyan",
+  "email": "bigyan@gmail.com",
+  "role": "seller",
+  "password": "$2a$12$zvCyUM/qKu6NoSQSKW.trenwBcsvJoPNhVe0R5cqeN5WpDg1ziZT.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670151cf603713b10044a52c"
+  },
+  "name": "ashish",
+  "email": "ashish1@gamil.com",
+  "role": "buyer",
+  "password": "$2a$12$TlsSCj7enmkr10KVaY0g4u.BVRZjGnKkkdD85gD9f0Z.VpSOWPk46",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6701537776d8927a9bdcec66"
+  },
+  "name": "bibek bhattarai",
+  "email": "bibek@gamil.com",
+  "role": "seller",
+  "password": "$2a$12$imYHUz3JkRTcMIr0xuzkNuowsAtWS6GXQbFBrbweK2xU9rIXF5Ve6",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670166297ad23b33aab28687"
+  },
+  "name": "sagar",
+  "email": "sagar@gamil.com",
+  "role": "buyer",
+  "password": "$2a$12$S4rn29bIS3033Os4vBo3Qe0A37crLvqKnIDR7X8ajyBJZvpRBvyYS",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6701efdc69e0e474eba544fc"
+  },
+  "name": "durga1",
+  "email": "durga1@gamil.com",
+  "role": "buyer",
+  "password": "$2a$12$WLpiSejnvVyA4a3lTcgmpuxATnuMeBwBuKxi0fhgZ.Yde1cHyZ7L6",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6701fbe25678190a6683fedf"
+  },
+  "name": "neon",
+  "email": "neon@gmail.com",
+  "role": "buyer",
+  "password": "$2a$12$XAIA7YPtG83/ziEy73B/ceu/l2BZmxHKUOdHopOcMqNeWvpcu/xeO",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6701fc0a5678190a6683fee4"
+  },
+  "name": "neon1",
+  "email": "neon@gamil.com",
+  "role": "seller",
+  "password": "$2a$12$GXV20DAu1g/m0Q2FIk54Ke.9GgREc5ZfsEAZvhvEeu5/0tceEyV76",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6701fc5703186d51c37fb1ce"
+  },
+  "name": "neno111",
+  "email": "neon1@gmail.com",
+  "role": "seller",
+  "password": "$2a$12$D2YnaTJU70lezmglrrw9K.E9x.BQnoe1GRf3VNdjTDW31u/oMwFYS",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6715c5401a54ace9651acf23"
+  },
+  "name": "bibek",
+  "email": "bibek1@gmail.com",
+  "role": "buyer",
+  "password": "$2a$12$Puap8JeKn024v.JZ9U.leusVnOruslzbP1TkNIy4pkOMzHrItdGvC",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "674bc74694c8ec3b79e00098"
+  },
+  "name": "kshitiz",
+  "email": "kshitiz123@gmail.com",
+  "role": "seller",
+  "password": "$2a$12$7EHAG6dSh1IPBVqtPxJMi.5zEZtdGEYFdwBji.TWDs1jFhFYOYTNm",
+  "chatIDs": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "675308761f0094c04c96a07f"
+  },
+  "name": "ashish",
+  "email": "ashish20@gmail.com",
+  "role": "buyer",
+  "password": "$2a$12$YrLTSFsNBvRSlCyKlzn4R.I9iKtWr6onMEfM1kpsCia7yVB.ZbuiS",
+  "chats": [],
+  "chatIDs": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67554e49ef4f5f318ffbf3f4"
+  },
+  "name": "test1",
+  "email": "test@gmail.com",
+  "role": "seller",
+  "password": "$2a$12$w.kE/iYybeQ1F1w1PVtaqOfL1aAd8QiKpGACgkz08rrO2D/UkiTCC",
+  "chats": [],
+  "chatIDs": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6756f547c4995863a3ca8186"
+  },
+  "name": "nar",
+  "email": "nar@gmail.com",
+  "role": "buyer",
+  "password": "$2a$12$.1znpCTAWU5C8L6EqveE7.khIOF8xhQu5OK7Il7GKqa6pCQs1o2sm",
+  "chats": [],
+  "chatIDs": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6757e1c72b6f6e5366569ac6"
+  },
+  "name": "subodh",
+  "email": "sumo@gmail.com",
+  "role": "buyer",
+  "password": "$2a$12$9HubN9VKxq1gS1GngR/T7.CKqfCKbNFFwA2rbD9LN3GzslS.kuCWi",
+  "chats": [],
+  "chatIDs": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "675805833a3317703847b6a9"
+  },
+  "name": "bibek bhattarai",
+  "email": "bibek2@gmail.com",
+  "role": "buyer",
+  "password": "$2a$12$8XPWkP0TzCIgo4vzPBpEYuQHd7JB9jJ2CywfKjAJD0bfL45dNsJXW",
+  "chats": [],
+  "chatIDs": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "675e54ff0374c885c7ceca58"
+  },
+  "name": "kamala bhattarai",
+  "email": "kamala@gmail.com",
+  "role": "buyer",
+  "password": "$2a$12$yPy4nMfmUjB8hi8JsrQSku.JKK3Nm/lRSxT.3EtoSvAx7GC1gU9iq",
+  "chats": [],
+  "chatIDs": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "675e56f70374c885c7cecb27"
+  },
+  "name": "madan",
+  "email": "madan@gmail.com",
+  "role": "buyer",
+  "password": "$2a$12$7C5iB.FY08ONJCy5KQ3iOOAvwkN9A9SmTezUS9aRMudPr8PDMMroS",
+  "chats": [],
+  "chatIDs": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67615539510c3f9bd1af7252"
+  },
+  "name": "test",
+  "email": "test1@gmail.com",
+  "role": "buyer",
+  "password": "$2a$12$b94QSWfgbpBOHsPCNd8zkOyh2TPEDt4R7txXcnzeUUaI7nuy03sAm",
+  "chats": [],
+  "chatIDs": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67618cc8223574e9b2d3d2a0"
+  },
+  "name": "niran bhattarai",
+  "email": "niran@gmail.com",
+  "role": "buyer",
+  "password": "$2a$12$3cz3D4Lfn33e123qH.csmOMhOEicRCjD7nCFT6fxPB4NJOs4O/WLW",
+  "chats": [],
+  "chatIDs": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "677f4cd2bfbc86d3bfbc1fa2"
+  },
+  "name": "test12",
+  "email": "test12@gmail.com",
+  "role": "buyer",
+  "password": "$2a$12$vUuAZ1ppg.1VZBEDFxX/Z.YJVGol8CPuXvNLUq6ITn16dFuEbefNG",
+  "chats": [],
+  "chatIDs": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6789e931e44e08e1230c2bd8"
+  },
+  "name": "test23",
+  "email": "test23@gmail.com",
+  "role": "buyer",
+  "password": "$2a$12$Apr2II/enbv7wbkyZi5KpuIroflxenqhd0xMGBLgXFGRonfD7MRYa",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6789e952e44e08e1230c2bdf"
+  },
+  "name": "test24",
+  "email": "test24@gmail.com",
+  "role": "seller",
+  "password": "$2a$12$U0.RTtYqkdrotnX.sglVSuFNuEnczCkdquCi3R9PKvHEn/0zRDp2a",
+  "__v": 0
+}]

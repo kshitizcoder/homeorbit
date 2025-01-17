@@ -1,0 +1,269 @@
+[{
+  "_id": {
+    "$oid": "67615e8081c2ad7c1551feaa"
+  },
+  "title": "Cozy Family Retreat",
+  "NumberOfBathroom": 2,
+  "NumberOfBedRoom": 3,
+  "NumberOfLivingRoom": 2,
+  "description": "Charming 3-bedroom, 2-bath home with a spacious backyard, perfect for family gatherings and outdoor fun.",
+  "typeOfProperty": "rent",
+  "city": "butwal",
+  "price": 12000,
+  "propertyArea": 1200,
+  "thumbnail": "thumbnail-66cf4b8f4b54be0b05e39f71-1734434462668-cover.jpeg",
+  "images": [
+    "property-66cf4b8f4b54be0b05e39f71-1734434432033-3.jpeg",
+    "property-66cf4b8f4b54be0b05e39f71-1734434432033-4.jpeg",
+    "property-66cf4b8f4b54be0b05e39f71-1734434432032-2.jpeg",
+    "property-66cf4b8f4b54be0b05e39f71-1734434432032-1.jpeg"
+  ],
+  "latitude": "27.7000",
+  "longitude": "83.4295",
+  "user": {
+    "$oid": "66cf4b8f4b54be0b05e39f71"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6761666081c2ad7c1551ff0b"
+  },
+  "title": "Modern Urban Oasis",
+  "NumberOfBathroom": 2,
+  "NumberOfBedRoom": 3,
+  "NumberOfLivingRoom": 4,
+  "description": "Sleek 2-bedroom condo featuring modern finishes, open-concept living, and breathtaking city views.",
+  "typeOfProperty": "rent",
+  "city": "butwal",
+  "price": 13000,
+  "propertyArea": 1150,
+  "thumbnail": "thumbnail-66cf4b8f4b54be0b05e39f71-1734436447474-cover.jpeg",
+  "images": [
+    "property-66cf4b8f4b54be0b05e39f71-1734436447939-4.jpeg",
+    "property-66cf4b8f4b54be0b05e39f71-1734436447939-3.jpeg",
+    "property-66cf4b8f4b54be0b05e39f71-1734436447939-2.jpeg",
+    "property-66cf4b8f4b54be0b05e39f71-1734436447938-1.jpeg"
+  ],
+  "latitude": "27.6847",
+  "longitude": "83.4356",
+  "user": {
+    "$oid": "66cf4b8f4b54be0b05e39f71"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6761671881c2ad7c1551ff34"
+  },
+  "title": "Chic Downtown Loft",
+  "NumberOfBathroom": 1,
+  "NumberOfBedRoom": 2,
+  "NumberOfLivingRoom": 3,
+  "description": "Stylish 1-bedroom loft with high ceilings, exposed brick, and large windows offering natural light and city vibes.",
+  "typeOfProperty": "rent",
+  "city": "butwal",
+  "price": 10000,
+  "propertyArea": 1100,
+  "thumbnail": "thumbnail-66cf4b8f4b54be0b05e39f71-1734436631627-cover.jpeg",
+  "images": [
+    "property-66cf4b8f4b54be0b05e39f71-1734436632031-4.jpeg",
+    "property-66cf4b8f4b54be0b05e39f71-1734436632030-3.jpeg",
+    "property-66cf4b8f4b54be0b05e39f71-1734436632030-2.jpeg",
+    "property-66cf4b8f4b54be0b05e39f71-1734436632030-1.jpeg"
+  ],
+  "latitude": " 27.6888",
+  "longitude": "83.4415",
+  "user": {
+    "$oid": "66cf4b8f4b54be0b05e39f71"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "676167e881c2ad7c1551ff82"
+  },
+  "title": "Stylish Starter Home",
+  "NumberOfBathroom": 3,
+  "NumberOfBedRoom": 3,
+  "NumberOfLivingRoom": 2,
+  "description": "Affordable 2-bedroom, 1-bath home with modern upgrades, perfect for first-time buyers looking for comfort and style.",
+  "typeOfProperty": "sell",
+  "city": "butwal",
+  "price": 3000000,
+  "propertyArea": 1120,
+  "thumbnail": "thumbnail-66cf4bf54b54be0b05e39f80-1734436839759-cover.jpeg",
+  "images": [
+    "property-66cf4bf54b54be0b05e39f80-1734436840095-4.jpeg",
+    "property-66cf4bf54b54be0b05e39f80-1734436840095-3.jpeg",
+    "property-66cf4bf54b54be0b05e39f80-1734436840095-2.jpeg",
+    "property-66cf4bf54b54be0b05e39f80-1734436840095-1.jpeg"
+  ],
+  "latitude": "27.6880",
+  "longitude": "83.4411",
+  "user": {
+    "$oid": "66cf4bf54b54be0b05e39f80"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6761685e81c2ad7c1551ff9b"
+  },
+  "title": "Rustic Country Escape",
+  "NumberOfBathroom": 0,
+  "NumberOfBedRoom": 0,
+  "NumberOfLivingRoom": 0,
+  "description": "Beautiful 3-bedroom farmhouse on a scenic plot of land, ideal for peaceful living or a weekend getaway",
+  "typeOfProperty": "sell",
+  "city": "butwal",
+  "price": 4000000,
+  "propertyArea": 1200,
+  "thumbnail": "thumbnail-66cf4bf54b54be0b05e39f80-1734436957923-cover.jpeg",
+  "images": [
+    "property-66cf4bf54b54be0b05e39f80-1734436958288-3.jpeg",
+    "property-66cf4bf54b54be0b05e39f80-1734436958288-2.jpeg",
+    "property-66cf4bf54b54be0b05e39f80-1734436958288-1.jpeg"
+  ],
+  "latitude": "27.6847",
+  "longitude": " 83.4356",
+  "user": {
+    "$oid": "66cf4bf54b54be0b05e39f80"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "676168bf81c2ad7c1551ffac"
+  },
+  "title": "Modern Masterpiece",
+  "NumberOfBathroom": 2,
+  "NumberOfBedRoom": 3,
+  "NumberOfLivingRoom": 2,
+  "description": "Custom-built 4-bedroom, 3-bath home with high-end finishes, smart home technology, and elegant design touches.",
+  "typeOfProperty": "sell",
+  "city": "butwal",
+  "price": 5000000,
+  "propertyArea": 1400,
+  "thumbnail": "thumbnail-66cf4bf54b54be0b05e39f80-1734437054921-cover.jpeg",
+  "images": [
+    "property-66cf4bf54b54be0b05e39f80-1734437055091-4.jpeg",
+    "property-66cf4bf54b54be0b05e39f80-1734437055091-3.jpeg",
+    "property-66cf4bf54b54be0b05e39f80-1734437055091-2.jpeg",
+    "property-66cf4bf54b54be0b05e39f80-1734437055091-1.jpeg"
+  ],
+  "latitude": "27.6888",
+  "longitude": "83.4415",
+  "user": {
+    "$oid": "66cf4bf54b54be0b05e39f80"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67808e3c13aa2239076fbc32"
+  },
+  "title": "Cozy Family Haven",
+  "NumberOfBathroom": 2,
+  "NumberOfBedRoom": 3,
+  "NumberOfLivingRoom": 2,
+  "description": " Beautiful home with a pool and let the dreamers find it.",
+  "typeOfProperty": "rent",
+  "city": "kathmandu",
+  "price": 11000,
+  "propertyArea": 1000,
+  "thumbnail": "thumbnail-66cf4bf54b54be0b05e39f80-1736478268398-cover.jpeg",
+  "images": [
+    "property-66cf4bf54b54be0b05e39f80-1736478268464-3.jpeg",
+    "property-66cf4bf54b54be0b05e39f80-1736478268464-2.jpeg",
+    "property-66cf4bf54b54be0b05e39f80-1736478268463-1.jpeg"
+  ],
+  "latitude": "27.7044",
+  "longitude": "85.3076",
+  "user": {
+    "$oid": "66cf4bf54b54be0b05e39f80"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67808ed913aa2239076fbc4a"
+  },
+  "title": "Comfortable Getaway",
+  "NumberOfBathroom": 2,
+  "NumberOfBedRoom": 3,
+  "NumberOfLivingRoom": 3,
+  "description": "House with unique features like a pool to make it stand out.",
+  "typeOfProperty": "rent",
+  "city": "kathmandu",
+  "price": 14000,
+  "propertyArea": 1234,
+  "thumbnail": "thumbnail-66cf4bf54b54be0b05e39f80-1736478424763-cover.jpeg",
+  "images": [
+    "property-66cf4bf54b54be0b05e39f80-1736478425211-4.jpeg",
+    "property-66cf4bf54b54be0b05e39f80-1736478425210-1.jpeg",
+    "property-66cf4bf54b54be0b05e39f80-1736478425211-3.jpeg",
+    "property-66cf4bf54b54be0b05e39f80-1736478425211-2.jpeg",
+    "property-66cf4bf54b54be0b05e39f80-1736478425212-5.jpeg"
+  ],
+  "latitude": " 27.7149",
+  "longitude": "85.2902",
+  "user": {
+    "$oid": "66cf4bf54b54be0b05e39f80"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67808fa913aa2239076fbc6f"
+  },
+  "title": "Stylish Home for Modern Living",
+  "NumberOfBathroom": 2,
+  "NumberOfBedRoom": 2,
+  "NumberOfLivingRoom": 3,
+  "description": "Property featuring a breathtaking pool and modern charm.",
+  "typeOfProperty": "sell",
+  "city": "kathmandu",
+  "price": 2000000,
+  "propertyArea": 1300,
+  "thumbnail": "thumbnail-66cf4b8f4b54be0b05e39f71-1736478632687-cover.jpeg",
+  "images": [
+    "property-66cf4b8f4b54be0b05e39f71-1736478632925-1.jpeg",
+    "property-66cf4b8f4b54be0b05e39f71-1736478632926-4.jpeg",
+    "property-66cf4b8f4b54be0b05e39f71-1736478632926-3.jpeg",
+    "property-66cf4b8f4b54be0b05e39f71-1736478632926-2.jpeg"
+  ],
+  "latitude": "27.7215",
+  "longitude": "85.3621",
+  "user": {
+    "$oid": "66cf4b8f4b54be0b05e39f71"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6780907613aa2239076fbc9c"
+  },
+  "title": "Beautiful House, Ready for You",
+  "NumberOfBathroom": 2,
+  "NumberOfBedRoom": 2,
+  "NumberOfLivingRoom": 1,
+  "description": "Beautiful House in Kathmandu",
+  "typeOfProperty": "sell",
+  "city": "kathmandu",
+  "price": 1000000,
+  "propertyArea": 1400,
+  "thumbnail": "thumbnail-66cf4b8f4b54be0b05e39f71-1736478837982-cover.jpeg",
+  "images": [
+    "property-66cf4b8f4b54be0b05e39f71-1736478838058-1.jpeg",
+    "property-66cf4b8f4b54be0b05e39f71-1736478838058-4.jpeg",
+    "property-66cf4b8f4b54be0b05e39f71-1736478838058-3.jpeg",
+    "property-66cf4b8f4b54be0b05e39f71-1736478838058-2.jpeg"
+  ],
+  "latitude": "27.7152",
+  "longitude": " 85.3123",
+  "user": {
+    "$oid": "66cf4b8f4b54be0b05e39f71"
+  },
+  "__v": 0
+}]
