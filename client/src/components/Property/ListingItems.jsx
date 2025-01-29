@@ -17,7 +17,7 @@ const ListingItems = ({ property }) => {
                 {/* <img src={HouseImg} alt="property" className="" />
                  */}
                 <img
-                  src={`http://localhost:4500/thumbnail/${property?.thumbnail}`}
+                  src={`https://homeorbit-backend.onrender.com/thumbnail/${property?.thumbnail}`}
                   alt=""
                 />
               </div>

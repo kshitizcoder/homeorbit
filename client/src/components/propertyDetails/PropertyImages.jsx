@@ -9,7 +9,11 @@ const PropertyImages = ({ images }) => {
           <div key={img}>
             <img
               className=""
-              src={img ? `http://localhost:4500/propertyImg/${img}` : ""}
+              src={
+                img
+                  ? `https://homeorbit-backend.onrender.com/propertyImg/${img}`
+                  : ""
+              }
               alt="property-imgage"
             />
           </div>

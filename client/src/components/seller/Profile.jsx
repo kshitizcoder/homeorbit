@@ -49,7 +49,7 @@ const Profile = ({ UserInfo }) => {
           className="rounded-full w-[5rem]"
           src={
             userData?.user?.photo
-              ? `http://localhost:4500/users/${userData?.user?.photo}`
+              ? `https://homeorbit-backend.onrender.com/users/${userData?.user?.photo}`
               : user
           }
           alt="User Photo"

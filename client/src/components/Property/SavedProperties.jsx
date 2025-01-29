@@ -30,8 +30,8 @@ const SavedProperties = () => {
                 <div className="w-[30rem]">
                   {/* <img src={HouseImg} alt="property" className="" /> */}
                   <img
-                    src={`http://localhost:4500/thumbnail/${property?.thumbnail}`}
-                    alt=""
+                    src={`https://homeorbit-backend.onrender.com/thumbnail/${property?.thumbnail}`}
+                    alt="thumnail"
                   />
                 </div>
                 <div>

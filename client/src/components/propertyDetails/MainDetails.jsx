@@ -40,7 +40,7 @@ const MainDetails = ({ property }) => {
           <img
             src={
               property?.property?.thumbnail
-                ? `http://localhost:4500/thumbnail/${property?.property?.thumbnail}`
+                ? `https://homeorbit-backend.onrender.com/thumbnail/${property?.property?.thumbnail}`
                 : "default-image-path.jpg" // fallback image
             }
             alt="property"
