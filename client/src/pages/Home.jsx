@@ -4,8 +4,6 @@ import Hero from "../components/home/Hero";
 import AboutUs from "../components/home/AboutUs";
 
 const Home = () => {
-  const { data } = useGetChatsQuery();
-  console.log(data);
   return (
     <>
       <Hero />
