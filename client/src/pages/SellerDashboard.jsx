@@ -5,11 +5,9 @@ import Profile from "../components/seller/Profile";
 import PropertyListingBySeller from "../components/seller/PropertyListingBySeller";
 import { useGetAllPropertyByUserQuery } from "../redux/property/propertyApi";
 
-import { useGetChatsQuery } from "../redux/chat/chatApi";
-
 const SellerDashboard = () => {
   const { data, error, refetch } = useGetUserProfileQuery();
-  const { data: chatData, refetch: chatRefetch } = useGetChatsQuery();
+
   const {
     data: propertyData,
     error: propertyError,
@@ -18,11 +16,9 @@ const SellerDashboard = () => {
   useEffect(() => {
     refetch();
     refetchProperties();
-    chatRefetch();
   }, [refetch, refetchProperties]);
   console.log(propertyData?.length);
-  // console.log(data);
-  // console.log(data, propertyError);
+
   return (
     <section className="px-10 mt-8">
       <div className="lg:flex justify-between">

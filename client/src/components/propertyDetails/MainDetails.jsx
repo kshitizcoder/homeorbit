@@ -9,7 +9,7 @@ import { CiBookmark } from "react-icons/ci";
 import { useSavedPropertyMutation } from "../../redux/property/propertyApi";
 
 import toast from "react-hot-toast";
-import { useAddChatMutation } from "../../redux/chat/chatApi";
+
 import { useNavigate } from "react-router-dom";
 
 const MainDetails = ({ property }) => {
