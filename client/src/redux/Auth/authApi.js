@@ -2,6 +2,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import Cookies from "js-cookie";
 const baseQuery = fetchBaseQuery({
   baseUrl: "https://homeorbit-backend.onrender.com/",
+
   credentials: "include",
   prepareHeaders: (headers) => {
     const token = Cookies.get("jwt");
