@@ -182,7 +182,7 @@ const createSendToken = (user, statusCode, res) => {
   res.cookie("jwt", token, {
     expires: new Date(Date.now() + 90 * 24 * 60 * 60 * 1000),
     httpOnly: true,
-    secure: process.env.NODE_ENV === "production", // Ensures HTTPS in production
+    secure: process.env.NODE_ENV === "production",
     sameSite: "None",
   });
   user.password = undefined;
