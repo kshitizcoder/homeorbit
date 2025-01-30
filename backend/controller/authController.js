@@ -168,11 +168,14 @@ const createSendToken = (user, statusCode, res) => {
   const token = signToken(user._id);
   const cookieOptions = {
     expires: new Date(Date.now() + 90 * 24 * 60 * 60 * 1000),
-    httpOnly: false,
+    httpOnly: true,
   };
   if (process.env.NODE_ENV === "production") {
-    cookieOptions.secure = true;
-    cookieOptions.sameSite = "Strict";
+    // cookieOptions.secure = true;
+    cookieOptions.secure =
+      req.secure || req.headers["x-forwarded-proto"] === "https";
+
+    cookieOptions.sameSite = "none";
   }
 
   res.cookie("jwt", token, cookieOptions);

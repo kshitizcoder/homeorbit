@@ -33,6 +33,8 @@ app.use(
       }
     },
     credentials: true,
+    methods: ["GET", "POST", "PATCH", "DELETE", "PUT"],
+    allowedHeaders: ["Content-Type", "Authorization"],
   })
 );
 app.options("*", cors());
