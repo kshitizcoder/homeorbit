@@ -8,7 +8,7 @@ const BuyerDashboard = () => {
 
   useEffect(() => {
     refetch();
-  }, [refetch, chatRefetch]);
+  }, [refetch]);
   return (
     <section className="px-7 h-[100vh] flex justify-between">
       <div>
