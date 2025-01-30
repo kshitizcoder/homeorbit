@@ -166,19 +166,25 @@ const signToken = (id) => {
 
 const createSendToken = (user, statusCode, res) => {
   const token = signToken(user._id);
-  const cookieOptions = {
+  // const cookieOptions = {
+  //   expires: new Date(Date.now() + 90 * 24 * 60 * 60 * 1000),
+  //   httpOnly: true,
+  // };
+  // if (process.env.NODE_ENV === "production") {
+  //   cookieOptions.secure = true;
+  //   // cookieOptions.secure =
+  //   //   req.secure || req.headers["x-forwarded-proto"] === "https";
+
+  //   cookieOptions.sameSite = "none";
+  // }
+
+  // res.cookie("jwt", token, cookieOptions);
+  res.cookie("jwt", token, {
     expires: new Date(Date.now() + 90 * 24 * 60 * 60 * 1000),
     httpOnly: true,
-  };
-  if (process.env.NODE_ENV === "production") {
-    cookieOptions.secure = true;
-    // cookieOptions.secure =
-    //   req.secure || req.headers["x-forwarded-proto"] === "https";
-
-    cookieOptions.sameSite = "none";
-  }
-
-  res.cookie("jwt", token, cookieOptions);
+    secure: process.env.NODE_ENV === "production", // Ensures HTTPS in production
+    sameSite: "None",
+  });
   user.password = undefined;
 
   res.status(statusCode).json({
