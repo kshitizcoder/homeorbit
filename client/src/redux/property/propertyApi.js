@@ -3,7 +3,7 @@ import Cookies from "js-cookie";
 import AddProperty from "../../components/seller/AddProperty";
 import { format } from "timeago.js";
 const baseQuery = fetchBaseQuery({
-  baseUrl: "https://homeorbit-backend.onrender.com",
+  baseUrl: "https://homeorbit-backend.onrender.com/",
   credentials: "include",
   prepareHeaders: (headers) => {
     const token = Cookies.get("jwt");
