@@ -21,6 +21,7 @@ const app = express();
 // );
 const allowedOrigins = [
   "https://homeorbit-el9k.onrender.com", // ✅ No trailing slash
+  // "http://localhost:5173",
 ];
 
 app.use(

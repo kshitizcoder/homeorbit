@@ -2,17 +2,15 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import Cookies from "js-cookie";
 const baseQuery = fetchBaseQuery({
   baseUrl: "https://homeorbit-backend.onrender.com/",
+  // baseUrl: "http://localhost:4500/",
   credentials: "include",
 
   prepareHeaders: (headers) => {
-    // const token = Cookies.get("jwt");
     const token = localStorage.getItem("token");
-    console.log("JWT Token Retrieved from Cookie:", token); // Debugging line
 
     if (token) {
       headers.set("Authorization", `Bearer ${token}`);
     } else {
-      console.warn("JWT Token is undefined");
     }
 
     return headers;
@@ -52,8 +50,6 @@ export const apiSlice = createApi({
 
     updateMe: builder.mutation({
       query: ({ id, formData }) => {
-        console.log(id);
-        console.log(formData);
         return {
           url: `api/v1/users/updateme/${id}`,
           method: "PATCH",

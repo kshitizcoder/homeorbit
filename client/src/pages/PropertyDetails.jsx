@@ -9,8 +9,7 @@ import PropertyMapDetails from "../components/Map/PropertyMapDetails";
 const PropertyDetails = () => {
   const { id } = useParams();
   const { data, isError } = useGetPropertyQuery(id);
-  console.log(data);
-  console.log(data?.property?.images);
+
   return (
     <section className=" px-10  w-[100%] ">
       <div className="w-full  ">
@@ -18,7 +17,7 @@ const PropertyDetails = () => {
           <MainDetails property={data} />
         </div>
         <div className="mt-5 w-[]">
-          <h3 className="w-[30%] py-2  text-center text-pure bg-primary mx-auto ">
+          <h3 className="md:w-[30%] py-2  text-center text-pure bg-primary mx-auto ">
             Property Imgaes
           </h3>
           {/* <img src=`` alt="" /> */}

@@ -115,7 +115,6 @@ const UpdateMe = () => {
     const formData = new FormData();
     formData.append("name", name);
     if (photo) {
-      console.log(photo);
       formData.append("photo", photo);
     }
 

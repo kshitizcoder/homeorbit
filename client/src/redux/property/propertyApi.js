@@ -4,17 +4,14 @@ import AddProperty from "../../components/seller/AddProperty";
 import { format } from "timeago.js";
 const baseQuery = fetchBaseQuery({
   baseUrl: "https://homeorbit-backend.onrender.com/",
-
+  // baseUrl: "http://localhost:4500/",
   credentials: "include",
   prepareHeaders: (headers) => {
     // const token = Cookies.get("jwt");
     const token = localStorage.getItem("token");
-    console.log("JWT Token Retrieved from Cookie:", token); // Debugging line
 
     if (token) {
       headers.set("Authorization", `Bearer ${token}`);
-    } else {
-      console.warn("JWT Token is undefined");
     }
 
     return headers;
@@ -66,8 +63,6 @@ export const propertyApi = createApi({
     }),
     updateProperty: builder.mutation({
       query: ({ id, formData }) => {
-        console.log(formData);
-        console.log(id);
         return {
           url: `api/v1/property/${id}`,
           method: "PATCH",

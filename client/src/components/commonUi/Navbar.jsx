@@ -15,9 +15,7 @@ const Navbar = () => {
       await logoutUser().unwrap();
       dispatch(logout());
       navigate("/login");
-    } catch (err) {
-      console.log(err.message);
-    }
+    } catch (err) {}
   };
   return (
     <nav className="bg-white border-gray-20">

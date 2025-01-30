@@ -48,7 +48,9 @@ const MainDetails = ({ property }) => {
           />
         </div>
         <div>
-          <h2 className="text-4xl font-bold">{property?.property?.title}</h2>
+          <h2 className="text-2xl md:text-4xl font-bold">
+            {property?.property?.title}
+          </h2>
           <div>
             <p>{property?.property?.description}</p>
           </div>

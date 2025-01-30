@@ -1,7 +1,19 @@
 import React from "react";
 import { FaHome, FaUser, FaBuilding } from "react-icons/fa"; // Importing relevant icons
+import { useLogOutMutation } from "../../redux/Auth/authApi";
+import { logout } from "../../redux/Auth/authSlice";
+import { useDispatch } from "react-redux";
 
 const SideBar = ({ home, property, user }) => {
+  const [logoutUser] = useLogOutMutation();
+  const dispatch = useDispatch();
+  const handleLogout = async () => {
+    try {
+      await logoutUser().unwrap();
+      dispatch(logout());
+      navigate("/login");
+    } catch (err) {}
+  };
   return (
     <section className="bg-primary h-screen px-8 py-6">
       <div>
@@ -46,6 +58,12 @@ const SideBar = ({ home, property, user }) => {
           <FaBuilding /> {/* Property Icon */}
           Property
         </h3>
+        <button
+          onClick={handleLogout}
+          className="bg-acent text-pure px-5 py-1 "
+        >
+          LogOut
+        </button>
       </div>
     </section>
   );

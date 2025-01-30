@@ -51,7 +51,6 @@ const AdminHome = () => {
     },
   };
 
-  console.log(data);
   return (
     <section>
       <div>

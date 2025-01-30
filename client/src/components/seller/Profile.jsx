@@ -3,7 +3,9 @@ import user from "../../assets/user.jpg";
 
 import Modal from "react-modal";
 import { NavLink } from "react-router-dom";
-
+import { logout } from "../../redux/Auth/authSlice";
+import { useLogOutMutation } from "../../redux/Auth/authApi";
+import { useDispatch } from "react-redux";
 const customStyles = {
   content: {
     top: "50%",
@@ -17,10 +19,10 @@ const customStyles = {
 const Profile = ({ UserInfo }) => {
   const [userData, setUserData] = useState(UserInfo);
   const [modalIsOpen, setIsOpen] = useState(false);
+  const [logoutUser, { isLoading }] = useLogOutMutation();
   useEffect(() => {
     setUserData(UserInfo);
   }, [UserInfo, userData]);
-  console.log(userData?.user?.name);
 
   function openModal() {
     setIsOpen(true);
@@ -34,7 +36,14 @@ const Profile = ({ UserInfo }) => {
   function closeModal() {
     setIsOpen(false);
   }
-  console.log(userData);
+  const dispatch = useDispatch();
+  const handleLogout = async () => {
+    try {
+      await logoutUser().unwrap();
+      dispatch(logout());
+      navigate("/login");
+    } catch (err) {}
+  };
   return (
     <div>
       <div className="flex items-center gap-5">
@@ -63,12 +72,19 @@ const Profile = ({ UserInfo }) => {
         <h4 className="text-secondary font-bold">Email:</h4>
         <p>{userData?.user?.email}</p>
       </div>{" "}
-      <div className="mt-5 flex items-center">
+      <div className="mt-5 flex items-center gap-5">
         {userData?.user?.role === "seller" ? (
           <button className="bg-primary text-pure px-6 py-1">
             <NavLink to="/add-property">Add Property</NavLink>{" "}
           </button>
         ) : null}
+        <button
+          onClick={handleLogout}
+          className="bg-acent text-pure px-5 py-1 "
+        >
+          LogOut
+        </button>
+
         {/* <button className="ml-4  bg-secondary px-5 text-pure  py-1">
           <NavLink to={`/upadteMe/${UserInfo?.user?._id}`}>
             Update profile

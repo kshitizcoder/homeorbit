@@ -6,7 +6,7 @@ const PublicLayouts = () => {
   const { userInfo } = useSelector((state) => state.auth);
 
   const navigate = useNavigate();
-  // console.log(user);
+
   useEffect(() => {
     if (userInfo) {
       if (userInfo.role === "admin") {

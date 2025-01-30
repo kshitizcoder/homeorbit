@@ -12,7 +12,7 @@
 //   const dispatch = useDispatch();
 //   const navigate = useNavigate();
 //   const { userInfo } = useSelector((state) => state.auth);
-//   // console.log(userInfo);
+
 //   const handleChange = (e) => {
 //     setFormData({ ...formData, [e.target.name]: e.target.value });
 //   };
@@ -25,8 +25,7 @@
 //   useEffect(() => {
 //     if (isError) {
 //       toast.error(error.data.message);
-//       // console.log(error.data.message);
-//     }
+//
 //     if (isSuccess) {
 //       toast.success("Login Succcessfully");
 //     }
@@ -41,7 +40,7 @@
 //     }
 //   }, [userInfo, isError, isSuccess]);
 
-//   console.log(error);
+//
 //   return (
 //     <>
 //       <form
@@ -113,7 +112,7 @@ const Login = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const { userInfo } = useSelector((state) => state.auth);
-  // console.log(userInfo);
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -123,16 +122,10 @@ const Login = () => {
     const userDetails = await login(formData).unwrap();
     dispatch(setCredentials(userDetails.data.user));
     localStorage.setItem("token", userDetails.token);
-    console.log(
-      "😁😁😁🎶🎶🎶",
-
-      userDetails.data.user.name
-    );
   };
   useEffect(() => {
     if (isError) {
       toast.error(error.data.message);
-      // console.log(error.data.message);
     }
     if (isSuccess) {
       toast.success("Login Succcessfully");
@@ -148,7 +141,6 @@ const Login = () => {
     }
   }, [userInfo, isError, isSuccess]);
 
-  console.log(error);
   return (
     <>
       {/* <form

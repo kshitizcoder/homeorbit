@@ -33,14 +33,6 @@ const UpdateProfile = () => {
     if (photo) {
       formData.append("photo", photo);
     }
-
-    try {
-      // await updateMe(formData).unwrap();
-      // handle success, like showing a success message
-    } catch (error) {
-      // handle error
-      console.error("Failed to update user:", error);
-    }
   };
   return (
     <section className="flex justify-center">

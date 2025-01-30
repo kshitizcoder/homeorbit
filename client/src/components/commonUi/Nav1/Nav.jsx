@@ -19,9 +19,7 @@ const Nav = () => {
       await logoutUser().unwrap();
       dispatch(logout());
       navigate("/login");
-    } catch (err) {
-      console.log(err.message);
-    }
+    } catch (err) {}
   };
   return (
     <nav className="navbar  container py-5 px-8 mx-auto flex justify-between items-center">
@@ -84,13 +82,28 @@ const Nav = () => {
         </li>
 
         {userInfo ? (
-          <div
-            className="bg-acent cursor-pointer text-pure px-7 py-1"
-            onClick={handleLogout}
-          >
-            {" "}
-            logout{" "}
-          </div>
+          // <div
+          //   className="bg-acent cursor-pointer text-pure px-7 py-1"
+          //   onClick={handleLogout}
+          // >
+          //   {" "}
+          //   logout{" "}
+          // </div>
+
+          <>
+            <Link
+              className="bg-primary px-5 py-1 text-pure rounded"
+              to={`${
+                userInfo.role === "buyer"
+                  ? "/buyer-dashboard"
+                  : userInfo.role === "seller"
+                  ? "/buyer-dashboard"
+                  : "dashboard"
+              }`}
+            >
+              Dashboard
+            </Link>
+          </>
         ) : (
           <>
             <li>

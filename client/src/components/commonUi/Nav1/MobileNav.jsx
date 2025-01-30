@@ -4,20 +4,18 @@ import { RxCross2 } from "react-icons/rx";
 const MobileNav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-const [logoutUser, { isLoading }] = useLogOutMutation();
-const { userInfo } = useSelector((state) => state.auth);
-const dispatch = useDispatch();
+  const [logoutUser, { isLoading }] = useLogOutMutation();
+  const { userInfo } = useSelector((state) => state.auth);
+  const dispatch = useDispatch();
 
-const navigate = useNavigate();
-const handleLogout = async () => {
-  try {
-    await logoutUser().unwrap();
-    dispatch(logout());
-    navigate("/login");
-  } catch (err) {
-    console.log(err.message);
-  }
-};
+  const navigate = useNavigate();
+  const handleLogout = async () => {
+    try {
+      await logoutUser().unwrap();
+      dispatch(logout());
+      navigate("/login");
+    } catch (err) {}
+  };
   return (
     <div className="bg">
       <div className="flex justify-between items-center px-7 ">
@@ -30,7 +28,6 @@ const handleLogout = async () => {
           <IoIosMenu
             onClick={() => {
               setIsOpen(true);
-              console.log("clicked");
             }}
             className="text-2xl"
           />

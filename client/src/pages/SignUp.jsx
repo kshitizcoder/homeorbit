@@ -4,7 +4,7 @@ import SellerSignUp from "../components/register/SellerSignUp";
 
 const SignUp = () => {
   return (
-    <section className="flex justify-around">
+    <section className="md:flex md:justify-around px-5 md:px-3">
       <BuyerSignUp />
       <SellerSignUp />
     </section>

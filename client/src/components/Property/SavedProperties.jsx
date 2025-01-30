@@ -5,12 +5,12 @@ import { MdBedroomParent, MdBathroom } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 const SavedProperties = () => {
   const { data, refetch } = useGetSavedPropertyQuery();
-  console.log(data);
+
   useEffect(() => {
     refetch();
   }, [refetch]);
   return (
-    <section>
+    <section className="h-auto">
       <div>
         {data?.properties?.length < 1 ? (
           <h2 className="my-2 font-bold bg-primary text-pure text-center  px-5 py-1">
@@ -27,9 +27,10 @@ const SavedProperties = () => {
           data?.properties?.map((property) => {
             return (
               <div key={property?._id} className="lg:flex mt-5  gap-x-10 ">
-                <div className="w-[30rem]">
+                <div className="md:w-[40%]">
                   {/* <img src={HouseImg} alt="property" className="" /> */}
                   <img
+                    className=""
                     src={`https://homeorbit-backend.onrender.com/thumbnail/${property?.thumbnail}`}
                     alt="thumnail"
                   />

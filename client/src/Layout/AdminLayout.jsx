@@ -6,7 +6,7 @@ const AdminLayout = () => {
   const { userInfo } = useSelector((state) => state.auth);
 
   const navigate = useNavigate();
-  // console.log("user🎁🎁🎁🎁🎁🎁", user);
+
   useEffect(() => {
     if (!userInfo || userInfo.role !== "admin") {
       navigate("/login");

@@ -39,8 +39,7 @@ export default PropertyMap;
 // import { MapContainer, TileLayer } from "react-leaflet";
 // import Pin from "./Pin";
 // const PropertyMap = ({ items }) => {
-//   console.log(items);
-
+//
 //   return (
 //     <MapContainer
 //       center={

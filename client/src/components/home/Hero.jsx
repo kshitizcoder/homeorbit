@@ -17,7 +17,7 @@ const Hero = () => {
   const [maxPrice, setMaxPrice] = useState(null);
   const [type, setType] = useState("rent");
   const navigate = useNavigate();
-  // console.log(city, maxPrice, maxPrice, type);
+
   const handleSubmit = (e) => {
     e.preventDefault();
     if (city != " " && minPrice && maxPrice && type != " ") {

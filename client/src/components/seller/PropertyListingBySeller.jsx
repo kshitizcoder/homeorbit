@@ -17,7 +17,6 @@ const PropertyListingBySeller = () => {
   const [deleteProperty, { isLoading, isSuccess, isError, error }] =
     useDeletePropertyMutation();
   if (isError) {
-    console.log(error);
   }
   const handleDeleteProperty = async (id) => {
     await deleteProperty(id).unwrap();
@@ -48,16 +47,16 @@ const PropertyListingBySeller = () => {
 
                   <div className="flex mt-2 gap-x-4 items-center">
                     <IoLocation className="text-primary text-4xl" />
-                    <p>{property.city}</p>
+                    <p>{property?.city}</p>
                   </div>
                   <div className="flex mt-2 gap-x-4 items-center">
                     <div className="flex mt-2 gap-x-4 items-center">
                       <MdBedroomParent className="text-primary text-4xl" />
-                      <h4>{property.NumberOfBedRoom} Bed Room</h4>
+                      <h4>{property?.NumberOfBedRoom} Bed Room</h4>
                     </div>
                     <div className="flex mt-2 gap-x-4 items-center">
                       <MdBathroom className="text-primary text-4xl" />
-                      <h4>{property.NumberOfBathroom} Bath Room</h4>
+                      <h4>{property?.NumberOfBathroom} Bath Room</h4>
                     </div>
                   </div>
                   <div className="mt-5">

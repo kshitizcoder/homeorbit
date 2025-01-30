@@ -8,7 +8,7 @@ import toast from "react-hot-toast";
 const UpdateSeller = () => {
   const [name, setName] = useState("");
   const [photo, setPhoto] = useState(null);
-  console.log(photo);
+
   const { data, error, refetch } = useGetUserProfileQuery();
   // const [
   //   updateMe,
@@ -23,7 +23,7 @@ const UpdateSeller = () => {
   if (isError) {
     toast.error(updateError?.error);
   }
-  console.log(updateData);
+
   const handleFormSubmit = async (e) => {
     e.preventDefault();
 

@@ -17,7 +17,6 @@ const SellerDashboard = () => {
     refetch();
     refetchProperties();
   }, [refetch, refetchProperties]);
-  console.log(propertyData?.length);
 
   return (
     <section className="px-10 mt-8">

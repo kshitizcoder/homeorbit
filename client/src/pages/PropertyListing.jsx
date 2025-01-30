@@ -31,8 +31,6 @@ const PropertyListing = () => {
     maxPrice,
     type,
   });
-  console.log(data);
-  console.log(error);
 
   return (
     <section className="px-10">

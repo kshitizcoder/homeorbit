@@ -3,7 +3,6 @@ import { MapContainer, TileLayer } from "react-leaflet";
 import Pin from "./Pin";
 import PinDeatils from "./PinDetails";
 const PropertyMapDetails = ({ items }) => {
-  console.log(items);
   const position =
     items?.property?.latitude && items?.property?.longitude
       ? [items?.property?.latitude, items?.property?.longitude]

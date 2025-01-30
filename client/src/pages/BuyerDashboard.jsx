@@ -10,12 +10,12 @@ const BuyerDashboard = () => {
     refetch();
   }, [refetch]);
   return (
-    <section className="px-7 h-[100vh] flex justify-between">
+    <section className="px-7  flex justify-between">
       <div>
         <div>
           <Profile UserInfo={data} />
         </div>
-        <div>
+        <div className="h-auto">
           <SavedProperties />
         </div>
       </div>{" "}
