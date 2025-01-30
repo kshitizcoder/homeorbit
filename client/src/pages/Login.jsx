@@ -122,7 +122,7 @@ const Login = () => {
     e.preventDefault();
     const userDetails = await login(formData).unwrap();
     dispatch(setCredentials(userDetails.data.user));
-
+    localStorage.setItem("token", userDetails.token);
     console.log(
       "😁😁😁🎶🎶🎶",
 

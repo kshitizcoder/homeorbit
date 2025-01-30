@@ -5,7 +5,8 @@ const baseQuery = fetchBaseQuery({
 
   credentials: "include",
   prepareHeaders: (headers) => {
-    const token = Cookies.get("jwt");
+    // const token = Cookies.get("jwt");
+    const token = localStorage.getItem("token");
     console.log("JWT Token Retrieved from Cookie:", token); // Debugging line
 
     if (token) {
