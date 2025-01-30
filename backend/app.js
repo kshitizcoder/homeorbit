@@ -11,12 +11,28 @@ dotenv.config();
 
 const app = express();
 
+// app.use(
+//   cors({
+//     origin: "https://homeorbit-el9k.onrender.com/",
+//     credentials: true,
+//     methods: ["GET", "POST", "PATCH", "DELETE", "PUT"],
+//     allowedHeaders: ["Content-Type", "Authorization"],
+//   })
+// );
+const allowedOrigins = [
+  "https://homeorbit-el9k.onrender.com", // ✅ No trailing slash
+];
+
 app.use(
   cors({
-    origin: "https://homeorbit-el9k.onrender.com/",
+    origin: function (origin, callback) {
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
     credentials: true,
-    methods: ["GET", "POST", "PATCH", "DELETE", "PUT"],
-    allowedHeaders: ["Content-Type", "Authorization"],
   })
 );
 app.options("*", cors());
