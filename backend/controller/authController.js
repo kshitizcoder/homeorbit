@@ -171,9 +171,9 @@ const createSendToken = (user, statusCode, res) => {
     httpOnly: true,
   };
   if (process.env.NODE_ENV === "production") {
-    // cookieOptions.secure = true;
-    cookieOptions.secure =
-      req.secure || req.headers["x-forwarded-proto"] === "https";
+    cookieOptions.secure = true;
+    // cookieOptions.secure =
+    //   req.secure || req.headers["x-forwarded-proto"] === "https";
 
     cookieOptions.sameSite = "none";
   }
